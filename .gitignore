@@ -1,0 +1,18 @@
+.idea
+.venv
+.env
+*.sqlite3
+*.db
+*.sql
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+
+# Ignore cache directories recursively
+**/__pycache__/
+**/*.py[cod]
+**/*.pyd
+**/*.pyo
